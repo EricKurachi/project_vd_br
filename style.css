@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+	height: 100%;
+	overflow: hidden;
+	border: 1em;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#pos1 {
+	position: relative;
+    transform: translate(-100%, 300%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#pos2 {
+	position: relative;
+    transform: translate(400%, 600%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#pos3 {
+	position: relative;
+    transform: translate(0, 1300%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#pos4 {
+	position: relative;
+    transform: translate(-500%, 2500%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#pos5 {
+	position: relative;
+    transform: translate(250%, 2300%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#version {
+	position: absolute;
+    transform: translate(0, 0);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: white;
+    bottom: 5px;
+}
